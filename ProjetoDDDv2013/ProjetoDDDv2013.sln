@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentiton", "0 - Presentiton", "{F35F032C-EA91-4A6D-A91B-BEF396E7C0B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{969A134C-2AAE-4536-A6A9-0A848BA748BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{7E0C5FE0-D950-4CDE-87CF-9706B38AAACB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{69C18530-7C16-46B2-A76E-D1DE3ED6CC53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{93A3A512-6369-48B1-9DBA-A5FD755228FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{9DC43036-E362-45E9-96E8-5627C178C34F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{69589A5A-65A4-4AA5-A3E9-6D3B106FFE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoDDDv2013.MVC", "ProjetoDDDv2013.MVC\ProjetoDDDv2013.MVC.csproj", "{27CB749C-A339-4FD3-BBCD-5ADC37678616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CB749C-A339-4FD3-BBCD-5ADC37678616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CB749C-A339-4FD3-BBCD-5ADC37678616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CB749C-A339-4FD3-BBCD-5ADC37678616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CB749C-A339-4FD3-BBCD-5ADC37678616}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DC43036-E362-45E9-96E8-5627C178C34F} = {93A3A512-6369-48B1-9DBA-A5FD755228FF}
+		{69589A5A-65A4-4AA5-A3E9-6D3B106FFE7C} = {93A3A512-6369-48B1-9DBA-A5FD755228FF}
+		{27CB749C-A339-4FD3-BBCD-5ADC37678616} = {F35F032C-EA91-4A6D-A91B-BEF396E7C0B1}
+	EndGlobalSection
+EndGlobal
